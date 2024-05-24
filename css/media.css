@@ -1,0 +1,135 @@
+ /* media query   */
+ @media (max-width: 991px) {
+
+      nav,
+      .social {
+           display: none;
+      }
+
+
+      .bars_btn {
+           display: block;
+           width: 10px;
+           left: 0;
+      }
+
+      .mob_menu {
+           position: absolute;
+           top: 100%;
+           left: 0;
+           width: 100%;
+           padding: 30px;
+           display: block;
+           background-color: black;
+           z-index: 1;
+           text-decoration: none;
+      }
+
+      .mob_menu li {
+           list-style-type: none;
+      }
+
+      .mob_menu li a {
+           padding: 12px 0;
+           display: block;
+           color: white;
+           border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+           text-decoration: none;
+      }
+ }
+
+ .mob_sub_menu {
+      padding-left: 40px;
+ }
+
+
+ @media (max-width: 575px) {
+
+      .shop-cart {
+           display: none;
+      }
+
+      .slide_box .text_slide {
+           width: 100%;
+      }
+
+      .btn.btn-black {
+           border: 2px solid transparent;
+           padding: px 25px;
+           border-radius: 10px;
+           text-transform: uppercase;
+           height: 60px;
+           line-height: 1.7;
+           font-size: 8px;
+           color: #fff;
+           background-color: #262626;
+           border-color: #262626;
+
+      }
+
+      @media (max-width: 991px) {
+           .logo {
+                text-align: center;
+                display: block;
+                height: auto;
+                top: 0;
+                padding: 0;
+           }
+
+           .logo img {
+                width: 170px;
+                background-size: cover;
+                z-index: 100;
+           }
+
+           .logo_black {
+                display: block;
+           }
+
+           .logo_white {
+                display: none;
+           }
+
+           header {
+                background-color: white;
+           }
+      }
+
+      .shop-cart>a>i {
+           color: #fff;
+           font-size: 16px;
+           line-height: 30px;
+           bottom: 10px;
+      }
+
+      .video-wrap .video-inner {
+           height: 100%;
+      }
+
+
+      @media (min-width: 1200px) {
+           .container {
+                width: 1170px;
+           }
+
+      }
+
+      @media (max-width: 1024px) {
+           .main-menu li a {
+                padding: 0 8px;
+           }
+      }
+
+      @media (max-width: 768px) {
+           .shop-cart a i {
+                color: #000;
+           }
+      }
+
+
+      /* @media  (max-width: 320px){
+     .slider-content{
+          left: 14%;
+     }
+} */
+ }
